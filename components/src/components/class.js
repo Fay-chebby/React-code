@@ -1,7 +1,7 @@
 import React, {Component}from 'react';
 
 
-class APPLE extends Component {
+class Counter extends Component {
     render() {
         return (
             <div>
@@ -11,4 +11,4 @@ class APPLE extends Component {
     }
 
 }
-export default  APPLE;
+export default  Counter;
