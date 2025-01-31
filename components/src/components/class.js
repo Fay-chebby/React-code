@@ -9,10 +9,21 @@ class Counter extends Component {
             count: 0
         }
     }
+
+    increment() {
+        this.setState({
+            count: this.state.count + 1
+        }
+        )
+        console.log(this.state.count);
+    }
     render() {
         return (
             <div>
-            count - {this.state.count}
+                <div>
+                    count - {this.state.count}
+                </div>
+            <button onClick={()=>this.increment()}>Increment</button>
             </div>
         )
     }
