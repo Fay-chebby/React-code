@@ -5,7 +5,7 @@
     top: 0;
     right: 0;
     width: 70%;
-    height: 100%;
+    height: 100%;  /* Adjusted height */
     overflow: hidden;
 }
 
@@ -21,26 +21,25 @@
     height: 850px;
     background-color: #d9f0f2;
     top: -50px;
-    right: -300px;
+    right: -400px;
 }
 
 /* Medium circle (teal) */
 .circle2 {
     width: 750px;
-    height: 750px;
+    height: 780px;
     background-color: #118c8b;
     top: -20px;
-    right: -250px;
+    right: -350px;
 }
 
 /* Smallest circle (orange) */
 .circle3 {
     width: 650px;
-    height: 650px;
+    height: 700px;
     background-color: #f16623;
-    top: -10px;
-    bottom: 50px;
-    right: -200px;
+    top: 5px; /* Lowered to improve spacing */
+    right: -300px;
 }
 
 
