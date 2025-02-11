@@ -1,14 +1,15 @@
 
 import './App.css';
-import Hello from "./components/hello";
+//import Hello from "./components/hello";
 
-import Counter from "./components/class";
+//import Counter from "./components/class";
+import Login from "./components/Login page";
 
 function App() {
   return (
     <div className="App">
-    <Hello/>
-      <Counter/>
+
+      <Login/>
     </div>
   );
 }
