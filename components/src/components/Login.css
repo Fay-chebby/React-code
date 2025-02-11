@@ -1,0 +1,125 @@
+/* Centering the login form */
+/* Container for background circles */
+.background-circles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Base circle styling */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* Largest circle (light blue) */
+.circle1 {
+    width: 850px;
+    height: 850px;
+    background-color: #d9f0f2;
+    top: -50px;
+    right: -300px;
+}
+
+/* Medium circle (teal) */
+.circle2 {
+    width: 750px;
+    height: 750px;
+    background-color: #118c8b;
+    top: -20px;
+    right: -250px;
+}
+
+/* Smallest circle (orange) */
+.circle3 {
+    width: 650px;
+    height: 650px;
+    background-color: #f16623;
+    top: -10px;
+    bottom: 50px;
+    right: -200px;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+
+}
+.header {
+    text-align: center; /* Center the text */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 400px;
+    position: absolute;
+
+}
+
+/* Styling the form container */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between elements */
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Form width */
+    text-align: center;
+}
+
+/* Input fields */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Login button */
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Register link */
+.register {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
